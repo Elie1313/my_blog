@@ -1,7 +1,7 @@
 {
-  "hash": "f80e1807c97f0fb71b286d0062cca323",
+  "hash": "0ebb20e6984a65d43a4d118c55c87941",
   "result": {
-    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Elie Nouhra\"\ndate: \"2023-02-11\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Elie Nouhra\"\ndate: \"2023-02-11\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n## Librairie heron\n\nLe package heron permet de calculer l'aire d'un triangle à l'aide de la formule de Héron. La fonction finale s'appuie sur une fonction intermédiare qui calcule le demi-périmètre.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Pour installer la librairie heron en utilisant le package remotes depuis github nous devons exécuter l'instruction suivante : \n# remotes::install_github(\"Elie1313/heron\")\n```\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

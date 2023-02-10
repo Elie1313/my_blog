@@ -10,3 +10,45 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+```{r}
+#| include: false
+library(targets)
+library(visNetwork)
+```
+
+Première itération
+
+```{r}
+tar_read(graph_un)
+tar_load(aire_un)
+```
+
+Deuxième itération
+
+```{r}
+tar_read(graph_deux)
+tar_load(aire_deux)
+```
+
+Troisième itération
+
+```{r}
+tar_read(graph_trois)
+tar_load(aire_trois)
+```
+
+Quatrième itération
+
+```{r}
+tar_read(graph_quatre)
+tar_load(aire_quatre)
+```
+
+```{r}
+tarchetypes::tar_quarto(index,path="index.qmd")
+```
+
+```{r}
+tar_make()
+```

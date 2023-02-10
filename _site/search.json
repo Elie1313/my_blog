@@ -18,7 +18,7 @@
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a post with executable code."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -26,5 +26,12 @@
     "title": "Welcome to my great blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#librairie-heron",
+    "href": "posts/post-with-code/index.html#librairie-heron",
+    "title": "Post With Code",
+    "section": "Librairie heron",
+    "text": "Librairie heron\nLe package heron permet de calculer l’aire d’un triangle à l’aide de la formule de Héron. La fonction finale s’appuie sur une fonction intermédiare qui calcule le demi-périmètre.\n\n# Pour installer la librairie heron en utilisant le package remotes depuis github nous devons exécuter l'instruction suivante : \n# remotes::install_github(\"Elie1313/heron\")"
   }
 ]

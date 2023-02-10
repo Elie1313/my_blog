@@ -11,3 +11,12 @@ This is a post with executable code.
 ```{r}
 1 + 1
 ```
+
+## Librairie heron
+
+Le package heron permet de calculer l'aire d'un triangle à l'aide de la formule de Héron. La fonction finale s'appuie sur une fonction intermédiare qui calcule le demi-périmètre.
+
+```{r}
+# Pour installer la librairie heron en utilisant le package remotes depuis github nous devons exécuter l'instruction suivante : 
+# remotes::install_github("Elie1313/heron")
+```

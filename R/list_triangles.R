@@ -13,8 +13,8 @@ plot_triangles <- function(list_triangles) {
     A <- triangle[1]
     B <- triangle[2]
     C <- triangle[3]
-    
+
     # Plot the triangle
-    plot(c(A[1], B[1], C[1]), c(A[2], B[2], C[2]), type="l", lty=2, col="black")
+    plot(c(A[1], B[1], C[1]), c(A[2], B[2], C[2]), type = "l", lty = 2, col = "black")
   }
 }

@@ -17,6 +17,18 @@ library(targets)
 library(visNetwork)
 ```
 
+```{r}
+tar_manifest(fields = all_of("command"))
+```
+
+```{r}
+tar_visnetwork()
+```
+
+```{r}
+tar_make()
+```
+
 Première itération
 
 ```{r}
